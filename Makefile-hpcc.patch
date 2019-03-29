@@ -1,0 +1,4 @@
+50c50
+< 	$(LINKER) $(LINKFLAGS) -o ../../../../hpcc.$(arch) $(HPL_LIBS)
+---
+> 	$(LINKER) $(LINKFLAGS) -o ../../../../hpcc $(HPL_LIBS)
